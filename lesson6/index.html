@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>lesson6/HW</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+   <p>
+      <bold>ID</bold>
+      <span id="id"></span>
+   </p>
+   <p>
+      <bold>City</bold>
+      <span id="city"></span>
+   </p>
+   <p>
+      <bold>Country</bold>
+      <span id="country"></span>
+   </p>
+
+
+   <table style="border: 1px solid blue; " id="tab">
+
+
+      <tr>
+         <td>
+            <b>
+               <button id="sortAskName" onclick="sortAskName()">▲</button>username<button id="sortDeskName"
+                  onclick="sortDeskName()">▼</button>
+            </b>
+
+         </td>
+
+         <td>
+            <b><button id="sortAskPost" onclick="sortAskPost()">▲</button>post_count
+               <button id="sortDeskPost" onclick="sortDeskPost()">▼</button>
+            </b>
+         </td>
+      </tr>
+
+
+      <tbody id="tab_body"></tbody>
+   </table>
+
+   <script src="./app.js"></script>
+</body>
+
+</html>
